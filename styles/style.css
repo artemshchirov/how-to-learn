@@ -1,8 +1,6 @@
-* {
+/* * {
   border: 1px solid red;
-  margin: 0;
-  padding: 0;
-}
+} */
 
 .page {
   min-width: 1100px;
@@ -22,16 +20,13 @@
   background-color: #f2f2f2;
 }
 
-.logo {
-  width: 183px;
-  height: 32px;
-  position: absolute;
-  z-index: 4;
-}
-
 .logo_place_header {
+  width: 183px;
+  height: 35px;
+  position: absolute;
   top: 30px;
   left: 64px;
+  z-index: 4;
 }
 
 .header__title {
@@ -92,10 +87,6 @@
   width: 80%;
   display: flex;
   justify-content: space-between;
-
-}
-
-.two-columns_place_center {
   margin: 100px auto;
 }
 
@@ -104,7 +95,8 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color:#2f80ed
+  color:#2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -116,6 +108,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__paragraph_space_top {
@@ -166,7 +159,7 @@
 
 .table__cell {
   width: 250px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .table__cell_space_top {
@@ -177,6 +170,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text {
@@ -184,6 +178,7 @@
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 
 /* Feynman */
@@ -242,12 +237,15 @@
 .kaufman {
   background-color: #1f1f1f;
   position: relative;
+  overflow: hidden;
 }
 
-
 .kaufman__triangle {
+  width: 877px;
+  height: 877px;
   position: absolute;
-  background: no-repeat right -210px;
+  top: 0;
+  right: -210px;
 }
 
 .section-title_theme_dark {
@@ -255,6 +253,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  position: relative;
   margin: 90px auto 0;
 }
 
@@ -274,6 +273,7 @@
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
 }
 
 .table__heading_theme_dark {
@@ -291,10 +291,68 @@
 /* Footer */
 
 .footer {
+  background: #1f1f1f;
+  min-height: 350px;
+  display: flex;
+}
 
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto 40px;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 771px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .logo_place_footer {
+  background-image: url('/images/logo_place_footer.svg');
+  background-repeat: no-repeat;
+  background-size: 183px 35px;
+}
 
+.footer__author {
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 18px 0;
+}
+
+.footer__column_content_info {
+  color: white;
+}
+
+.footer__column_content_social {
+  color: white;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.footer__column-links {
+  margin: 20px 0 16px;
+}
+
+
+.footer__column-link {
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  display: flex;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
 }
 
