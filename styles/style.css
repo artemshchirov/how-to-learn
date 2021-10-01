@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 .page {
   min-width: 1100px;
@@ -73,7 +73,7 @@
   width: 568px;
   background-color: #2f80ed;
   position: absolute;
-  top: 64;
+  top: 64px;
   right: 0;
   z-index: 0;
 }
