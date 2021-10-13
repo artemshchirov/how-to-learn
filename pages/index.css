@@ -1,5 +1,5 @@
-@import url(../blocks/vendor/normalize.css);
-@import url(../blocks/root/root.css);
+@import url(./vendor/normalize.css);
+@import url(../blocks/page/page.css);
 
 /* animation */
 @import url(../blocks/rotate/rotate.css);
@@ -17,7 +17,6 @@
 /* Description */
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/two-columns/_center/two-columns_center_description.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
@@ -38,7 +37,6 @@
 
 /* Oakley */
 @import url(../blocks/oakley/oakley.css);
-@import url(../blocks/two-columns/_center/two-columns_center_oakley.css);
 
 /* Feynman */
 @import url(../blocks/feynman/feynman.css);
