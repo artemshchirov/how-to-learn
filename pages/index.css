@@ -1,5 +1,13 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__container/page__container.css);
+@import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__footer/page__footer.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__section/content__section.css);
+
+@import url(../blocks/section/section.css);
 
 /* animation */
 @import url(../blocks/rotate/rotate.css);
@@ -89,7 +97,9 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_info.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
-@import url(../blocks/footer/__column-links/footer__column-links.css);
-@import url(../blocks/footer/__column-link/footer__column-link.css);
-@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__list/navigation__list.css);
+@import url(../blocks/navigation/__list-link/navigation__list-link.css);
+@import url(../blocks/navigation/__social-icon/navigation__social-icon.css);
 

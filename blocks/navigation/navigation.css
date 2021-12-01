@@ -1,0 +1,7 @@
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: nowrap;
+    margin: 20px 0 16px;
+}
