@@ -1,4 +1,4 @@
-.footer__column-link {
+.navigation__list-link {
   color: white;
   line-height: 30px;
   font-size: 18px;
@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 
-.footer__column-link:hover {
+.navigation__list-link:hover {
   opacity: .7;
   transition: opacity .1s;
 }
