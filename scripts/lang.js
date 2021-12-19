@@ -1,3 +1,22 @@
+const langImagesObj = {
+  "logo-header": {
+    en: "./images/logo-header_en.png",
+    ru: "./images/logo-header_ru.svg",
+  },
+  "header-image": {
+    en: "./images/header_en.png",
+    ru: "./images/header_ru.png",
+  },
+  "khan-book": {
+    en: "./images/khan-book_en.jpeg",
+    ru: "./images/khan-book_ru.jpg",
+  },
+  "logo-footer": {
+    en: "./images/logo-footer_en.png",
+    ru: "./images/logo-footer_ru.svg",
+  },
+};
+
 const langTextObj = {
   "header-title": {
     en: "Learning how to learn",

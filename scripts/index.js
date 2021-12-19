@@ -4,37 +4,42 @@ const allLang = ["en", "ru"];
 // go to url with choosed language
 const changeURLLanguage = () => {
   let lang = select.value;
-  location.href = window.location.pathname + "#" + lang; //? узнать разницу location и window.location
+  location.href = window.location.pathname + "#" + lang;
   location.reload();
 };
-
-const translateHeader = (section, lang) => {};
-
-const changeLanguage = () => {
-  let hash = window.location.hash;
-  hash = hash.slice(1);
-  // console.log(hash)
-  if (!allLang.includes(hash)) {
-    location.href = window.location.pathname + "#en";
-    location.reload();
-  }
-
-  select.value = hash;
-
+const changeTextLanguage = (lang) => {
   for (let key in langTextObj) {
     const elem = document.getElementById(key);
     if (elem) {
       if (elem.childNodes.length > 1) {
-        elem.childNodes[0].textContent = langTextObj[key][hash];
+        elem.childNodes[0].textContent = langTextObj[key][lang];
       } else {
-        elem.textContent = langTextObj[key][hash];
+        elem.textContent = langTextObj[key][lang];
       }
     }
+    if (lang === "en") {
+      document.title = "Learning how to learn";
+    } else {
+      document.title = "Научиться учиться";
+    }
   }
-
-  // for (let key in langImgObj) {
-  //   const image = document.getElementById
-  // }
+};
+const changeImageLanguage = (lang) => {
+  for (let key in langImagesObj) {
+    const image = document.getElementById(key);
+    if (image) image.src = langImagesObj[key][lang];
+  }
+};
+const changeLanguage = () => {
+  let hash = window.location.hash;
+  hash = hash.slice(1);
+  if (!allLang.includes(hash)) {
+    location.href = window.location.pathname + "#ru";
+    location.reload();
+  }
+  select.value = hash;
+  changeImageLanguage(hash);
+  changeTextLanguage(hash);
 };
 
 changeLanguage();
