@@ -1,0 +1,11 @@
+.change-lang {
+  align-self: center;
+  width: 100%;
+  min-width: 30px;
+  max-width: 70px;
+  padding: 0.25em 0.5em;
+  margin-left: 10px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+}
