@@ -1,15 +1,18 @@
-# Научиться учиться
+# Learning How to Learn
 
-## Сайт о современных и эффективных подходах к обучению
+## Project Description:
+*This project is showcasing the knowledge Advanced HTML & CSS class.*
 
-На сайте у вас есть возможность ознакомиться с техниками обучения от специалистов, преуспевших в этом.
-Увидеть как перестать прокрастинировать и заняться делом.
-Понять лучше как работает учёба и наш мозг.
-Узнать о полезных и актуальных книгах.
-А так же познакомиться с другими полезными интернет- ресурсами, которые помогут нам в саморазвитии
+It is a web page describing various learning strategies, from experts such as Barbara Oakley, Feynman, Salman Khan, and Josh Kaufman.
 
-### TODO
+## Technologies and Techniques Used:
+This web page was created with HTML and CSS as a culmination of the skills learned in the Advanced HTML & CSS course.
 
-+ Добавить ещё видео
+### Some of the skills used are:
 
-+ Добавить ещё техник обучения
+* BEM methodology
+* Element positioning
+* Git
+* Flexbox
+* iframe
+* CSS Animations
