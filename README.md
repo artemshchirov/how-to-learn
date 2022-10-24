@@ -1,4 +1,4 @@
-# Learning How to Learn
+# How to Learn
 
 ## Have a look at the project on GitHub Pages
 
