@@ -1,12 +1,8 @@
 # Learning How to Learn
 
-<https://artemshchirov.github.io/how-to-learn/#en> - link to page.
+## Have a look at the project on GitHub Pages
 
-## Getting Started
-
-1. `git clone git@github.com:artemshchirov/how-to-learn.git`
-  
-2. Use liveserver or open index.html
+<https://artemshchirov.github.io/how-to-learn/#en>
 
 ## Project Description
 
@@ -18,7 +14,7 @@ It is a web page describing various learning strategies, from experts such as Ba
 
 This web page was created with HTML and CSS as a culmination of the skills learned in the Advanced HTML & CSS course.
 
-### Some of the skills used are
+## Some of the skills used are
 
 - BEM methodology
 - Element positioning
@@ -26,3 +22,28 @@ This web page was created with HTML and CSS as a culmination of the skills learn
 - Flexbox
 - iframe
 - CSS Animations
+
+## Getting Started
+
+```bash
+1. git clone https://github.com/artemshchirov/how-to-learn.git
+2. Use liveserver or open index.html
+```
+
+## Demo Functionality
+
+### Animation 1
+
+![header-animation.gif](gifs/how-to-header-animation.gif)
+
+### Embed content
+
+![video.gif](gifs/how-to-video.gif)
+
+### Localization
+
+![localization.gif](gifs/how-to-localization.gif)
+
+### Animation 2
+
+![header-footer.gif](gifs/how-to-footer-animation.gif)

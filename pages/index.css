@@ -94,3 +94,5 @@
 @import url(../blocks/navigation/__list/navigation__list.css);
 @import url(../blocks/navigation/__list-link/navigation__list-link.css);
 @import url(../blocks/navigation/__social-icon/navigation__social-icon.css);
+/* link */
+@import url(../blocks/link/link.css);

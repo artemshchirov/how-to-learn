@@ -1,12 +1,13 @@
 const select = document.querySelector(".change-lang");
 const allLang = ["en", "ru"];
 
-// go to url with choosed language
+// go to url with selected language
 const changeURLLanguage = () => {
   let lang = select.value;
   location.href = window.location.pathname + "#" + lang;
   location.reload();
 };
+
 const changeTextLanguage = (lang) => {
   for (let key in langTextObj) {
     const elem = document.getElementById(key);
@@ -17,19 +18,16 @@ const changeTextLanguage = (lang) => {
         elem.textContent = langTextObj[key][lang];
       }
     }
-    if (lang === "en") {
-      document.title = "Learning how to learn";
-    } else {
-      document.title = "Научиться учиться";
-    }
   }
 };
+
 const changeImageLanguage = (lang) => {
   for (let key in langImagesObj) {
     const image = document.getElementById(key);
     if (image) image.src = langImagesObj[key][lang];
   }
 };
+
 const changeLanguage = () => {
   let hash = window.location.hash;
   hash = hash.slice(1);

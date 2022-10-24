@@ -51,12 +51,12 @@ const langTextObj = {
     ru: "Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективнымизахватывающим. Эти же техники применяются на примере обучения в Практикуме.",
   },
   "section-title-1": {
-    en: "",
+    en: "Teaching Techniques",
     ru: "Техники обучения",
   },
   "section-subtitle-1": {
-    en: "",
-    ru: "Пять практик от Барбары Оакли",
+    en: "Six practices from Barbara Oakley",
+    ru: "Шесть практик от Барбары Оакли",
   },
   "cards-title-1": {
     en: "Two Ways Of Thinking",
